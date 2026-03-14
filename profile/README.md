@@ -1,40 +1,62 @@
-# SuisseBidMatch 🇨🇭
-**Spec- & rule-driven tender matching for Swiss public procurement (SIMAP).**
+<p align="center">
+  <img src="../assets/TenderLogo.jpeg" alt="Heidi Tender" width="460" />
+</p>
 
-> Unofficial project — not affiliated with simap.ch.
+<h1 align="center">Heidi Tender</h1>
 
-## What we do
-SuisseBidMatch helps companies **find the tenders they can actually win**:
-- Ingest your **internal product specs, capabilities, and business rules**
-- Understand SIMAP tenders (DE/FR/IT) and extract requirements
-- Rank opportunities with **explainable match reasons** (why it fits / why it doesn’t)
+<p align="center">
+  <strong>AI-native tender intelligence for teams that want faster, sharper, and more defensible bid decisions.</strong>
+</p>
 
-## Key features
-- 🔎 **Best-fit matching** (beyond keywords/CPV)
-- ✅ **Rule checks** (must-have requirements, exclusions, compliance gates)
-- 🧠 **RAG context** from your product catalog + past bids (optional)
-- 📝 **Explainability**: fit score + evidence snippets
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Tender%20Intelligence-0F172A?style=for-the-badge" alt="Focus: Tender Intelligence" />
+  <img src="https://img.shields.io/badge/Workflow-LLM%20%2B%20Rules%20%2B%20SQL-0F766E?style=for-the-badge" alt="Workflow: LLM plus Rules plus SQL" />
+  <img src="https://img.shields.io/badge/Built%20for-Procurement%20Teams-C2410C?style=for-the-badge" alt="Built for Procurement Teams" />
+</p>
 
-## How it works (high level)
-1) Tender ingestion → normalize fields + text  
-2) Requirement extraction → constraints & signals  
-3) Matching engine → rules + embeddings + rerank  
-4) Output → ranked list + reasons + action checklist
+<p align="center">
+  Formerly developed under the <code>Suisse Bid Match</code> working name, Heidi Tender is evolving into a polished platform for turning dense tender documents into explainable, shortlist-ready product matches.
+</p>
 
-## Demo
-- Live demo: <link>
-- Pitch deck / video: <link>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>From document chaos to structure</strong><br />
+      Parse tender packs, spreadsheets, archives, and technical files into a clean decision workflow that teams can actually use.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Rules with real operational weight</strong><br />
+      Combine LLM extraction, hard constraints, soft signals, and SQL-backed filtering so outputs are usable, not just interesting.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Explainability built in</strong><br />
+      Every candidate can be traced back to requirements, rule logic, evidence, and matching rationale for more confident bidding.
+    </td>
+  </tr>
+</table>
 
-## Repositories
-- `suissebidmatch` – main platform
-- `data` – ingestion & parsing
-- `matcher` – matching engine
-- `docs` – docs & architecture
-- `eval` – evaluation suite
+## What We Are Building
 
-## Contributing
-We welcome issues & PRs. See `CONTRIBUTING.md`.
+Heidi Tender is an end-to-end tender matching platform focused on high-friction procurement workflows. Our current flagship build starts with Swiss public procurement and lighting product matching, helping teams move from unstructured requirements to ranked supplier candidates with much less manual cross-checking.
 
-## Contact
-- Email: <team@email>
-- Devpost: <link>
+## Why It Stands Out
+
+- A 7-step core pipeline that separates extraction, rule merge, SQL generation, execution, and ranking
+- Human-in-the-loop rule copilot flows so AI suggestions can be reviewed before they affect live jobs
+- Realtime job monitoring with step history, events, and stable rule snapshots for audit-friendly operations
+- Docker-first runtime with a web app, supplier product database, and knowledge-base bootstrap workflow
+
+## Inside The Platform
+
+- `Next.js` frontend for job orchestration, rules, and stats
+- `FastAPI` backend with REST APIs and SSE event streaming
+- `PostgreSQL` for app state and `MySQL` for supplier product data
+- OpenAI-powered extraction and ranking wrapped in explicit, testable pipeline contracts
+
+## Current Flagship Repository
+
+The current Heidi Tender implementation lives in the `suisse-bid-match` codebase. It is the foundation for the product direction here: tender intelligence that feels practical, explainable, and production-minded from day one.
+
+<p align="center">
+  <sub>Independent project. Not affiliated with simap.ch.</sub>
+</p>
