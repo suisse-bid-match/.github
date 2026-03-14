@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  Formerly developed under the <code>Suisse Bid Match</code> working name, Heidi Tender is evolving into a polished platform for turning dense tender documents into explainable, shortlist-ready product matches.
+  Heidi Tender turns dense tender documents into explainable, shortlist-ready product matches for teams that need speed, rigor, and confidence in every bid decision.
 </p>
 
 <table>
@@ -53,9 +53,9 @@ Heidi Tender is an end-to-end tender matching platform focused on high-friction 
 - `PostgreSQL` for app state and `MySQL` for supplier product data
 - OpenAI-powered extraction and ranking wrapped in explicit, testable pipeline contracts
 
-## Current Flagship Repository
+## Product Direction
 
-The current Heidi Tender implementation lives in the `suisse-bid-match` codebase. It is the foundation for the product direction here: tender intelligence that feels practical, explainable, and production-minded from day one.
+Heidi Tender is being shaped as a practical, production-minded tender intelligence platform: one that helps procurement teams move faster without giving up traceability, rule discipline, or human control.
 
 <p align="center">
   <sub>Independent project. Not affiliated with simap.ch.</sub>
