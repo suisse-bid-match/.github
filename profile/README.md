@@ -58,5 +58,5 @@ Heidi Tender is an end-to-end tender matching platform focused on high-friction 
 Heidi Tender is being shaped as a practical, production-minded tender intelligence platform: one that helps procurement teams move faster without giving up traceability, rule discipline, or human control.
 
 <p align="center">
-  <sub>Independent project. Not affiliated with simap.ch.</sub>
+  <sub>Independent project. Not affiliated with Swiss authorities.</sub>
 </p>
